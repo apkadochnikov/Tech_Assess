@@ -1,1 +1,16 @@
+export KEYCLOAK_POSTGRES_IMAGE_TAG='bitnami/postgresql:15'
+export KEYCLOAK_DB_NAME='keycloakdb'
+export KEYCLOAK_DB_USER='keycloakadmin'
+export KEYCLOAK_DB_PASSWORD='Qwerty123'
 
+export KEYCLOAK_IMAGE_TAG='bitnami/keycloak:24.0.3'
+export KEYCLOAK_DB_TYPE=''
+export KEYCLOAK_ADMIN_USERNAME='beeline'
+export KEYCLOAK_ADMIN_PASSWORD='Qwerty123'
+export KEYCLOAK_HOSTNAME='keycloak.akbarsik.ru'
+
+export TRAEFIK_IMAGE_TAG='traefik:v3.0'
+export TRAEFIK_LOG_LEVEL=''
+export TRAEFIK_ACME_EMAIL='an.kado4nikov@yandex.ru'
+export TRAEFIK_HOSTNAME='traefik.akbarsik.ru'
+export TRAEFIK_BASIC_AUTH='beeline:aafe06e46da6f8158e7a90926b1b7a84'
