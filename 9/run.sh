@@ -9,8 +9,8 @@ docker network create traefik-network
 docker network create keycloak-network
 
 #Copy export bashrc
-cat 9/environment_variables >> ~/.bashrc
+cat Tech_Assess/9/environment_variables >> ~/.bashrc
 source ~/.bashrc
 
-cd 9/
+cd Tech_Assess/9/
 docker compose -f docker_keycloak_postgresql_letsencrypt.yml -p keycloak up -d
